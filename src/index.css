@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.app{
+  background: rgb(27, 27, 27);
+  width:100%;
+  height:100%;
+  color:white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.app div{
+  width:100%;
+  min-height:100vh;
+}
+
+nav{
+  background: rgb(17, 17, 17);
+  width: 100%;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+nav input{
+  align-self: center;
+  padding: 10px;
+  font-size:25px;
+  width:300px;
+  height:45px;
+  margin: 15px 0;
+  background:rgba(255, 255, 255, 0.39);
+}
+
+nav span{
+  color:rgb(59, 1, 59);
+}
+
+footer{
+  background: rgb(17, 17, 17);
+  width:100%;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer hr{
+  border: 0.4px solid white;
+  width:90%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  font-size:10px;
+}
+
+#carouseldiv{
+  width:80%;
+  height:20%;
+}
