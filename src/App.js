@@ -2,18 +2,15 @@ import React, {Component} from "react";
 import './App.css';
 import NavBar from './navbar';
 import Footer from './footer';
-import Movie from './movies';
-import { render } from "react-dom";
-
+import Movielist from './movielist';
+import Moviecomponent from './movie';
 
 
 function App() {
       return (
         <div className = "app">
             <NavBar />
-            <div>
-              
-            </div>
+            <Movielist />
             <Footer />
         </div>
       );
